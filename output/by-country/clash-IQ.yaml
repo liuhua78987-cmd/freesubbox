@@ -5,20 +5,18 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇶 IQ 01 - xiaohe
-  server: 172.67.130.187
-  port: 2083
+  server: 193.8.215.96
+  port: 9443
   udp: true
   type: vless
-  uuid: 2b8738de-1af5-4267-b101-c05707769ed4
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
   tls: true
-  servername: fans.liverpool.qzz.io
+  servername: hub-de-03.hanvpn.cc
   skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiY0Y0cENQUmxsNyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: fans.liverpool.qzz.io
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: de03-grpc-8e47a
 proxy-groups:
 - name: PROXIES
   type: select
