@@ -4,38 +4,26 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 01 - xiaohe",
-      "server": "138.124.63.224",
-      "server_port": 8444,
-      "uuid": "f55e9aba-7b14-4f6f-b59a-d5b3d45c9309",
+      "server": "140.238.213.114",
+      "server_port": 50160,
+      "password": "84a506ca5aca505696a454d828420b3f",
       "tls": {
         "enabled": true,
-        "server_name": "github.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0",
-          "short_id": "457fab2ac885dbe0"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "GunService"
+        "server_name": "140.238.213.114",
+        "insecure": true
       }
     },
     {
       "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 02 - xiaohe",
-      "server": "188.34.142.174",
-      "server_port": 444,
-      "uuid": "da46ec1f-84ad-4470-866f-010b58357b19",
+      "server": "175.41.179.37",
+      "server_port": 51262,
+      "uuid": "903fed13-8e78-4fa2-a83e-b392b289741f",
       "tls": {
         "enabled": true,
-        "server_name": "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev",
+        "server_name": "3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -46,7 +34,7 @@
         "type": "ws",
         "path": "/@Marisa_kristi",
         "headers": {
-          "Host": "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
+          "Host": "3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev"
         }
       }
     },
@@ -59,85 +47,13 @@
       "password": "e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3"
     },
     {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 04 - xiaohe",
-      "server": "57.129.52.47",
-      "server_port": 52014,
-      "uuid": "ecc4675b-1607-4699-8b20-23af97b671af",
-      "tls": {
-        "enabled": true,
-        "server_name": "kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 05 - xiaohe",
-      "server": "116.204.164.5",
-      "server_port": 7443,
-      "uuid": "2416ff70-cb17-4cdc-834d-a89c00261e01",
-      "tls": {
-        "enabled": true,
-        "server_name": "o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 06 - xiaohe",
-      "server": "129.151.64.169",
-      "server_port": 31867,
-      "uuid": "f7ff2e67-b687-4098-a28a-d102c27ba19c",
-      "tls": {
-        "enabled": true,
-        "server_name": "mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇨🇭 瑞士 (Switzerland) 01 - xiaohe",
         "🇨🇭 瑞士 (Switzerland) 02 - xiaohe",
-        "🇨🇭 瑞士 (Switzerland) 03 - xiaohe",
-        "🇨🇭 瑞士 (Switzerland) 04 - xiaohe",
-        "🇨🇭 瑞士 (Switzerland) 05 - xiaohe",
-        "🇨🇭 瑞士 (Switzerland) 06 - xiaohe"
+        "🇨🇭 瑞士 (Switzerland) 03 - xiaohe"
       ]
     },
     {
@@ -146,10 +62,7 @@
       "outbounds": [
         "🇨🇭 瑞士 (Switzerland) 01 - xiaohe",
         "🇨🇭 瑞士 (Switzerland) 02 - xiaohe",
-        "🇨🇭 瑞士 (Switzerland) 03 - xiaohe",
-        "🇨🇭 瑞士 (Switzerland) 04 - xiaohe",
-        "🇨🇭 瑞士 (Switzerland) 05 - xiaohe",
-        "🇨🇭 瑞士 (Switzerland) 06 - xiaohe"
+        "🇨🇭 瑞士 (Switzerland) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

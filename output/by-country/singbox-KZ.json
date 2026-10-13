@@ -5,22 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe",
-      "server": "216.173.71.43",
-      "server_port": 443,
-      "uuid": "ee18d188-14cc-417e-beb1-70e4add6d023",
+      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe",
+      "server": "206.223.249.90",
+      "server_port": 33891,
+      "uuid": "9977ba41-b6aa-4033-9492-2f6abfcade31",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "lv.nztvpn.com",
+        "server_name": "browser.yandex.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "miDhSALrcCvSfc38VjCDYlzNh5M61NMR5IkUli7IN08",
-          "short_id": "0da7e14db353e7d0"
+          "public_key": "fj5f0rWTOAgd2gqCCWgag3oAGwb6MCef3OFNdnQLWW8",
+          "short_id": "f5bc6788"
         }
       }
     },
@@ -29,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe"
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe"
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
