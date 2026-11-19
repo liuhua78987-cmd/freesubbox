@@ -5,19 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 104.27.46.35
+  server: 104.18.11.153
   port: 443
   udp: true
   type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: debafe5b-6760-4b00-b0b2-ee30cbf769f0
   tls: true
-  servername: jp3.yohototo.top
+  servername: portland-wins-robbie-skirt.trycloudflare.com
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /e0843c8ad581
     headers:
-      Host: jp3.yohototo.top
+      Host: portland-wins-robbie-skirt.trycloudflare.com
 proxy-groups:
 - name: PROXIES
   type: select
