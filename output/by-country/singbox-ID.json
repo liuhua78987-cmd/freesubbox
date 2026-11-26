@@ -1,0 +1,57 @@
+{
+  "log": {
+    "level": "warn"
+  },
+  "outbounds": [
+    {
+      "type": "vless",
+      "tag": "🇮🇩 印尼 (Indonesia) 01 - xiaohe",
+      "server": "104.27.109.16",
+      "server_port": 443,
+      "uuid": "67ab86b7-69fb-41bf-8967-290cbd08f0ac",
+      "tls": {
+        "enabled": true,
+        "server_name": "jLDmwA9CfRug7b03Cr1vs.paGes.DEV",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vl/43gYvFJEPmUtPFSZ?ed=2560",
+        "headers": {
+          "Host": "jldmwa9cfrug7b03cr1vs.pages.dev"
+        }
+      }
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇮🇩 印尼 (Indonesia) 01 - xiaohe"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇮🇩 印尼 (Indonesia) 01 - xiaohe"
+      ],
+      "url": "https://www.gstatic.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
