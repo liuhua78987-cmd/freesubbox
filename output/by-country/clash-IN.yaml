@@ -25,8 +25,6 @@ proxies:
   network: ws
   ws-opts:
     path: /vless
-    headers:
-      Host: 13.140.56.100
 - name: 🇮🇳 印度 (India) 03 - xiaohe
   server: 147.93.171.8
   port: 8443
@@ -43,19 +41,20 @@ proxies:
     headers:
       Host: 147-93-171-8.sslip.io
 - name: 🇮🇳 印度 (India) 04 - xiaohe
-  server: 13.140.253.35
+  server: 13.140.74.242
   port: 443
   udp: true
   type: vless
-  uuid: 213224a4-6cd1-b7f4-8bbc-4f50e5ed847b
+  uuid: 06a5afa1-2bbc-a5d1-1770-becd1089c636
   tls: true
-  servername: xray-ikmqcro3-rapid-river-6.cloady.io
+  servername: xray-dmr3b3hy-calm-maple-7.cloady.io
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /c54a815e676d9acc
+    path: /0175469f14317d82
     headers:
-      Host: xray-ikmqcro3-rapid-river-6.cloady.io
+      Host: xray-dmr3b3hy-calm-maple-7.cloady.io
 proxy-groups:
 - name: PROXIES
   type: select
